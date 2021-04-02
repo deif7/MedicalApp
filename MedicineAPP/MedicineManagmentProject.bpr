@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="MedicineManagmentProject.exe"/>
+    <OBJFILES value="MedicineManagmentProject.obj MainForm.obj DMod.obj AccomodationForm.obj 
+      NomenklaturaDoktori.obj NomenklaturaSIMP.obj NomenklaturaMDI.obj 
+      NomenklaturaPATH.obj AccomodationDateShowForm.obj 
+      AccomodationTimeShowForm.obj FirstAccomodationDateShowForm.obj 
+      AccomodationPredictedDischargeDateShowForm.obj 
+      AccomodationRealDischargeDateShowForm.obj PatientsShowForm.obj 
+      RoomsShowForm.obj BedsShowForm.obj"/>
+    <RESFILES value="MedicineManagmentProject.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainForm.dfm DMod.dfm AccomodationForm.dfm 
+      NomenklaturaDoktori.dfm NomenklaturaSIMP.dfm NomenklaturaMDI.dfm 
+      NomenklaturaPATH.dfm AccomodationDateShowForm.dfm 
+      AccomodationTimeShowForm.dfm FirstAccomodationDateShowForm.dfm 
+      AccomodationPredictedDischargeDateShowForm.dfm 
+      AccomodationRealDischargeDateShowForm.dfm PatientsShowForm.dfm 
+      RoomsShowForm.dfm BedsShowForm.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib ibxpress.lib cds.lib dsnap.lib vcldb.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi cds.bpi dsnap.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="MedicineManagmentProject.cpp"/>
+    <INCLUDEPATH value="&quot;D:\My Projects\Graduation Thesis\DiplomenPROEKT\MedicineAPP&quot;;..\..\DataBase;&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;&quot;D:\My Projects\Graduation Thesis\Projects\DiplomenProekt&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;D:\My Projects\Graduation Thesis\DiplomenPROEKT\MedicineAPP&quot;;..\..\DataBase;&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;&quot;D:\My Projects\Graduation Thesis\Projects\DiplomenProekt&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;D:\My Projects\Graduation Thesis\DiplomenPROEKT\MedicineAPP&quot; 
+      -I..\..\DataBase -I&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot; 
+      -I&quot;D:\My Projects\Graduation Thesis\Projects\DiplomenProekt&quot; 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="MedicineManagmentProject.res" FORMNAME="" UNITNAME="MedicineManagmentProject.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MedicineManagmentProject.cpp" FORMNAME="" UNITNAME="MedicineManagmentProject" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainForm.cpp" FORMNAME="Main" UNITNAME="MainForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DMod.cpp" FORMNAME="DataMod" UNITNAME="DMod" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="AccomodationForm.cpp" FORMNAME="AccomForm" UNITNAME="AccomodationForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="NomenklaturaDoktori.cpp" FORMNAME="NomenDoctorsForm" UNITNAME="NomenklaturaDoktori" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="NomenklaturaSIMP.cpp" FORMNAME="NomenSIMPForm" UNITNAME="NomenklaturaSIMP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="NomenklaturaMDI.cpp" FORMNAME="NomenMDIForm" UNITNAME="NomenklaturaMDI" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="NomenklaturaPATH.cpp" FORMNAME="NomenPATHForm" UNITNAME="NomenklaturaPATH" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AccomodationDateShowForm.cpp" FORMNAME="AccomDateSHOWForm" UNITNAME="AccomodationDateShowForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AccomodationTimeShowForm.cpp" FORMNAME="AccomTimeSHOWForm" UNITNAME="AccomodationTimeShowForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FirstAccomodationDateShowForm.cpp" FORMNAME="FirstAccomDateSHOWForm" UNITNAME="FirstAccomodationDateShowForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AccomodationPredictedDischargeDateShowForm.cpp" FORMNAME="PredictedDischargeDateShowForm" UNITNAME="AccomodationPredictedDischargeDateShowForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AccomodationRealDischargeDateShowForm.cpp" FORMNAME="RealDischargeDateSHOWForm" UNITNAME="AccomodationRealDischargeDateShowForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PatientsShowForm.cpp" FORMNAME="PatientSHOWForm" UNITNAME="PatientsShowForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RoomsShowForm.cpp" FORMNAME="RoomSHOWForm" UNITNAME="RoomsShowForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BedsShowForm.cpp" FORMNAME="BedSHOWForm" UNITNAME="BedsShowForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1026
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
